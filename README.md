@@ -1,7 +1,4 @@
 # AI-Model-Pipeline
-下面这整段就是一个可以直接粘到 `README.md` 里的版本，已经对齐 PDF 里的所有要求，也和你现在的实现、结果完全一致。你只要把文件名改成你实际的（如果将来改名的话）就行。
-
----
 
 # AG News Headline Classification: From Keywords to DistilBERT
 
