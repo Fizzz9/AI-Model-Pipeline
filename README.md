@@ -79,7 +79,7 @@ For each topic (World, Sports, Business, Sci/Tech) we manually create a short li
 1. Preprocess the headline (lowercase, strip punctuation, split into tokens).
 2. For each class, count how many of its keywords appear in the headline.
 3. Predict the class with the **highest keyword count**.
-4. If no keywords are found for any class, fall back to the **majority class** (`World`) in the training data.
+4. If no keywords are found for any class, we default to World (label 0) as a simple fallback.
 
 **Why this is naïve.**
 
