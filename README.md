@@ -122,11 +122,13 @@ This setup is small enough to run on a single GPU (e.g., RTX-3090) in reasonable
 
 **Environment (rough).**
 
-* Python 3.x
-* `torch` (with CUDA if available)
+* `Python 3.10.12
+* `PyTorch 2.3.1+cu12
 * `transformers`
 * `datasets`
 * `scikit-learn`
+* `accelerate
+* `numpy
 
 All imports and installation hints are included at the top of the notebook.
 
