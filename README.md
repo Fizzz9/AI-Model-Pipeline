@@ -6,7 +6,7 @@ The goal is to compare a very simple **keyword-based baseline** with a fine-tune
 Repository contents:
 
 * `AI Model Pipeline.ipynb` – main Jupyter notebook (data loading, baseline, DistilBERT pipeline, evaluation).
-* `AI Model Pipeline.pdf` – LaTeX report compiled from the homework template.
+* `AI Model Pipeline_Report.pdf` – LaTeX report compiled from the homework template.
 * `README.md` – this project summary.
 
 ---
