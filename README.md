@@ -46,8 +46,6 @@ We use the **AG News** corpus as provided by the Hugging Face `datasets` library
   * **Validation:** 12,000 examples
   * **Test:** 7,600 examples (official test split, untouched)
 
-The random split for train/validation is done once, with a fixed seed, via `datasets.Dataset.train_test_split(test_size=0.1, seed=42)`.
-
 **Preprocessing.**
 
 * **For the keyword baseline**
