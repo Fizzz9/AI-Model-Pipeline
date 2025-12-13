@@ -127,7 +127,6 @@ This setup is small enough to run on a single GPU (e.g., RTX-3090) in reasonable
 * `transformers`
 * `datasets`
 * `scikit-learn`
-* `numpy`, `pandas`, `tqdm`, etc.
 
 All imports and installation hints are included at the top of the notebook.
 
