@@ -1,5 +1,3 @@
-# AI-Model-Pipeline
-
 # AG News Headline Classification: From Keywords to DistilBERT
 
 This repository contains a mini end-to-end AI pipeline for classifying news headlines into four categories: **World**, **Sports**, **Business**, and **Sci/Tech**.
