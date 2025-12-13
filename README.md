@@ -122,13 +122,13 @@ This setup is small enough to run on a single GPU (e.g., RTX-3090) in reasonable
 
 **Environment (rough).**
 
-* `Python 3.10.12
-* `PyTorch 2.3.1+cu12
+* `Python 3.10.12`
+* `PyTorch 2.3.1+cu12`
 * `transformers`
 * `datasets`
 * `scikit-learn`
-* `accelerate
-* `numpy
+* `accelerate`
+* `numpy`
 
 All imports and installation hints are included at the top of the notebook.
 
@@ -208,11 +208,3 @@ Overall, these examples match the quantitative picture: the baseline catches som
   * trying a slightly larger model such as BERT-base,
   * doing light domain adaptation for business/technology news, and
   * adding a stronger classical baseline (e.g., TF-IDF + logistic regression) between the keyword rules and DistilBERT to make the performance gap more interpretable.
-
----
-
-## 6. How to run
-
-1. Install dependencies (either with your own environment or `pip install` based on the imports inside the notebook).
-2. Open `AI Model Pipeline.ipynb` in Jupyter or VS Code.
-3. Run all cells from top to bottom.
