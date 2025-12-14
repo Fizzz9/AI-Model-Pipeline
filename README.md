@@ -34,7 +34,7 @@ News topic classification is a classic example where both humans and machines ne
 ## 2. Dataset description
 
 **Source.**
-We use the **AG News** corpus as provided by the Hugging Face `datasets` library (`"ag_news"`). Each example is a (title, description) pair with one of four topic labels; in this project we only use the **headline/title** field.
+We use the AG News corpus as provided by the Hugging Face datasets library ("ag_news"). Each example contains a short news text with one of four topic labels; in this project we use the headline/text field as the model input.
 
 **Size and splits.**
 
